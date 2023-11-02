@@ -43,16 +43,23 @@ margin: 15px 0;
 p{
 font-size: 1.2rem;
 margin: 15px 0;
+
 }
 
 
 @media (max-width: 1000px) {
-width:80%;
+
 align-items: center;
-text-align:center;
+/*font-size:1rem;*/
+  /*width: 100%;*/
+justify-content: space-around;
+  text-align: justify;
+  /*padding:  2px;*/
+/*word-spacing: normal;*/
+width: 40vw;
 
 img{
-    display:none;
+  width: 80vw;
 }
 }
 

@@ -5,8 +5,8 @@ export const categories = [
 	{
 		id: 1,
 		img:"https://i.postimg.cc/Nf9GLqBY/icon.png" ,
-		title: "Todas ",
-		category: "Todas",
+		title: "All  ",
+		category: "All categories",
 	},
 	{
 		id: 2,

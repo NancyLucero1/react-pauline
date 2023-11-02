@@ -3,16 +3,21 @@ import{motion} from "framer-motion";
 
 
 export const ProductoCard = styled.div`
+ 
 width: 300px;
 border-radius:15px;
 padding:1rem;
 background-color:  #A3976D;
 border:2px solid #3E371B ;
+
+&:hover {
+ transform: translateY(15px);
+}  
 img{
     width:100%;
     margin-bottom: 1rem;
     border-radius:30px;
-
+    
     
 }
 

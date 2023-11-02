@@ -52,7 +52,7 @@ export const products = [
 	},
 	{
 		id: 7,
-		title: "Box-Saltly",
+		title: "Round box-Saltly .   Diferent topins",
 		img: "https://i.postimg.cc/gk3nWskJ/25.jpg",
 		desc: "",
 		price: 100,
@@ -174,7 +174,7 @@ export const products = [
 	},
 	{
 		id: 22,
-		title: "Lunch party 4",
+		title: "Lunch party 4 x 24 u. Diferent topins",
 		img: "https://i.postimg.cc/Yq7t1HMr/img7.jpg",
 		desc: "",
 		price: 70,

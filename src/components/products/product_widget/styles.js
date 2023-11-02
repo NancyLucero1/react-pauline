@@ -32,7 +32,7 @@ width:100%;
 max-width:1300px;
 padding: 1rem 0;
 
-    
+ 
 
 
 `

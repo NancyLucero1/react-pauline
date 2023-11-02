@@ -11,9 +11,9 @@ margin:  15px auto;
 @media (max-width: 768px) {
     padding-top: 30px;
     text-align: center;
-    
-}
 
+
+}
 
 `
 
