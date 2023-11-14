@@ -1,6 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fredoka:wght@300;400;500;600;700&family=Zilla+Slab+Highlight:wght@400;700&display=swap');
+        
     :root {     
     --orange-bg:#3E371B ;
     --orange: #ff9d01;
@@ -11,6 +13,10 @@ export const GlobalStyles = createGlobalStyle`
   margin: 0;
   padding: 0;
   width: 100%;
+  font-family: 'Caveat', cursive;
+        font-family: 'Fredoka', sans-serif;
+        font-family: 'Zilla Slab Highlight', serif;
+
   }
   html{
     scroll-behavior: smooth;
@@ -18,11 +24,13 @@ export const GlobalStyles = createGlobalStyle`
     body {
     margin: 0;
     padding: 0;
-    background:#21C994 ;
+    background-image: linear-gradient(-45deg,  #2B2B1A 10%, #A3976D 90%);
+    /*background: #21C994 ;*/
     font-family: 'Montserrat', sans-serif;
-    color: #DDDACBEC;
-    -webkit-tap-highlight-color: transparent;
-    overflow-x: hidden
+    color:#D7DBDC ;
+  
+    
+    
     }
     a {
     text-decoration: none;

@@ -11,14 +11,16 @@ color:white;
 font-weight:400;
 cursor: pointer;
 &:hover {
-    opacity:95%;
+    opacity:65%;
+    color: #21C994;
 }
 &:disabled {
 
     cursor: not-allowed;
-    opacity: 0.5%
+    opacity: 3.5%
 }
-background: var(--orange-bg) ;
+
+background-image: linear-gradient(-45deg,  #2B2B1A 10%, #A3976D 90%);
     border-radius: 1rem ;
     display:  flex;
     justify-content: center;

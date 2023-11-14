@@ -16,7 +16,6 @@ align-items: center;
   z-index: 999;
 
 gap:20px;
- 
 
  
     
@@ -37,8 +36,8 @@ a{
 }
 
 a:first-child{
-
-    background: var(--orange-bg) ;
+    background-image: linear-gradient(-45deg,  #2B2B1A 10%, #A3976D 90%);
+   /* background: var(--orange-bg) ;*/
     border-radius: 1rem;
     display:  flex;
     justify-content: center;
@@ -52,7 +51,7 @@ a:first-child{
 
 export const LinkContainer = styled.div`
 font-size: 1.2rem;
-color: ${(props) => (props.home ? "#26F3F3" : "#3E2C14")};
+color: ${(props) => (props.home ? "#21C994" : "#464523")};
 
 
 `
@@ -79,6 +78,7 @@ display: none;
 align-items: center;
 font-size: 2rem;
 cursor: pointer;
+
 @media (max-width: 768px) {
     display: flex;
 }
@@ -92,7 +92,17 @@ span{
     color:#3E371B  ;
     font-size: 1rem;
     margin-right: 5px;
+    &:hover {
+    opacity:65%;
+    color: #FDFFF2;
 }
+&:disabled {
+
+    cursor: not-allowed;
+    opacity: 3.5%}
+
+}
+
 @media (max-width: 965px){
     display: none;
 }
@@ -103,6 +113,7 @@ width: 30px;
 height: 30px;
 border-radius: 100px;
 cursor: pointer;
+
 `
 
 export const SpanStyled = styled.span`
@@ -110,5 +121,18 @@ export const SpanStyled = styled.span`
     text-decoration: underline;
     border:20px;
     color: black;
+}
+`
+
+
+
+export const UserMenu = styled.div`
+width: 50px;
+height: 25px;
+cursor: pointer;
+display:none;
+font-size:25px;
+@media (max-width: 965px){
+    display: flex;
 }
 `

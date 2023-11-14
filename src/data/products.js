@@ -290,14 +290,38 @@ export const products = [
 
 	{
 		id: 35,
-		title: "Lunch party 6",
-		img: "https://i.postimg.cc/DzRTmVxK/img11.jpg",
+		title: "Shoots x 15 u",
+		img: "https://i.postimg.cc/7PzF0z4L/cake38.jpg",
 		desc: "",
 		price: 100,
-		category: "Lunch",
+		category: "Candy",
+	},
+    {
+		id: 36,
+		title: "Cheese-Cake",
+		img: "https://i.postimg.cc/K89GwTR2/caje7.jpg",
+		desc: "",
+		price: 150,
+		category: "Cakes",
 	},
 
-	
+	{
+		id: 37,
+		title: "CupCakes x 15 u",
+		img: "https://i.postimg.cc/7LdxYy3t/cake.jpg",
+		desc: "",
+		price: 80,
+		category: "Candy",
+	},
+    {
+		id: 38,
+		title: "Vainilla-Cake",
+		img: "https://i.postimg.cc/3wd8TwvD/cake5.jpg",
+		desc: "",
+		price: 150,
+		category: "Candy",
+	},
+
 
 
 

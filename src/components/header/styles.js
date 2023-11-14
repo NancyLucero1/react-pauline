@@ -3,14 +3,14 @@ import styled from "styled-components";
 
 
 export const HeaderContainer = styled.div`
-background:#2B2B1A  ;
+background-image: linear-gradient(-45deg,  #2B2B1A 30%, #A3976D 70%);
 display: flex;
 justify-content:space-around;
 align-items: center;
 max-width: 1300px;
 margin: 0 auto;
-gap: 30px;
-padding:100px;
+gap: 10px;
+padding:111px;
 border-bottom: 2px solid #E8E8D8 ;
 
 h1{
@@ -59,8 +59,24 @@ justify-content: space-around;
 width: 40vw;
 
 img{
-  width: 80vw;
+  width: 75vw;
 }
+h1{
+font-size: 3rem;
+margin: 5px 0;
+}
+
+h2{
+font-size: 1.5rem;
+margin: 5px 0;
+}
+p{
+font-size: 1.2rem;
+margin: 5px 0;
+
+}
+
+
 }
 
 
@@ -81,6 +97,7 @@ img{
     width:100%;
     height:100%;
     border-radius:30px;
+
    
   
 }   

@@ -1,8 +1,8 @@
 import logo from '../../assets/image/logo.png'
 import trolley from '../../assets/image/trolley.png'
 import { motion } from 'framer-motion';
-import React from 'react';
-import { FaHome, FaUser, FaUsers, FaFileSignature,FaFacebook, FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa';
+import React , { useRef, useState }  from 'react';
+import { FaHome, FaUserTie, FaUsers,FaUserPlus ,FaUserEdit, FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa';
 import {
     HomeContainer,
     LinkContainer,
@@ -10,12 +10,18 @@ import {
     NavbarContainer,
     SpanStyled,
     UserContainer,
-    UserNav,
+    UserNav
 } from './styles';
+
+import { FaSortAmountDownAlt} from "react-icons/fa";
+import {UserMenu} from "./styles"
+
 
 
 
 export const Navbar = () => {
+  
+
   return (
     <NavbarContainer>
       <div>
@@ -36,22 +42,19 @@ export const Navbar = () => {
             </a>
           </motion.div>
           <UserNav>
-
           <UserContainer>
-            <SpanStyled>Sign In</SpanStyled>
-            <FaUser />
-            <SpanStyled> Sign Up</SpanStyled>
-            <FaFileSignature/>
-            <SpanStyled>About Us</SpanStyled>
-            <FaUsers/>
-        
-           
-            
-          </UserContainer>
-         
+  <SpanStyled>Sign In</SpanStyled>
+  <FaUserTie/>
+  <SpanStyled> Sign Up</SpanStyled>
+  <FaUserPlus/>
+  <SpanStyled>About Us</SpanStyled>
+  <FaUsers/>
+  <SpanStyled>Contact Us</SpanStyled>
+  <FaUserEdit/>
+ 
+  
+</UserContainer>
           </UserNav>
-         
-       
         </HomeContainer>
         <motion.div whileTap={{scale: 1.20}}>
        
@@ -59,7 +62,18 @@ export const Navbar = () => {
         <img src= {trolley} />
         </LinkContainer>
         </motion.div>
+
+        <UserMenu>
+      <FaSortAmountDownAlt  />
+      </UserMenu>
+
+
       </LinksContainer>
+     
+         
+       
+
+         
     </NavbarContainer>
   );
-};
+}

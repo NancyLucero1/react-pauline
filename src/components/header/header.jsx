@@ -19,8 +19,8 @@ export const Header = () => {
       
     <img src={bor}/>
    
-         <h1>Pauline is the best place, </h1>
-         <h2>to kick off your day or just take a break. </h2>
+         <h1>Pauline  </h1>
+         <h2>is the best place,to kick off your day or just take a break. </h2>
          
              <p>
                ¿Take away? ¿To eat in? Enter and make your order online today . </p>

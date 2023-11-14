@@ -10,6 +10,13 @@ align-items:center;
 flex-direction:column;
 max-width:1300px;
 margin:  15px auto;
+background:white-space;
+
+h3{
+
+    color:#3E371B;
+    font-size:35px;
+}
 
 @media (max-width: 768px) {
 
@@ -48,5 +55,29 @@ padding: 0.5 0.5rem;
 
 border-radius:10px;
 cursor:pointer;
+
+`
+
+
+
+export const SeparadorGold = styled.div`
+  align-items: center;
+font-size:1rem;
+padding:35px;
+
+
+h3{
+  align-items: center;
+
+  
+}
+@media (max-width: 1223px) {
+
+img{
+  display:none;
+}
+
+}
+
 
 `

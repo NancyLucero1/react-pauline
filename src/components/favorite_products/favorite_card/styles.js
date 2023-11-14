@@ -2,11 +2,11 @@ import styled from "styled-components";
 import{motion} from "framer-motion";
 
 
-export const ProductoCard = styled.div`
- 
-width: 300px;
+export const FavoritaCard = styled.div`
+
+width: 150px;
 border-radius:15px;
-padding:1rem;
+padding:0.8rem;
 background-color:  #A3976D;
 border:2px solid #3E371B ;
 
@@ -23,18 +23,21 @@ img{
 
 h2{
 
-font-weight:600;
+font-weight:400;
 margin:0;
 
+
 }
+
+
 p{
 
 color:#3E371B;
-font-size:1.2rem;
+font-size:0.9rem;
 
 }
 @media (max-width: 768px) {
-    width:190px;
+    width:140px;
     text-align:center;
     margin-left:3px;
     justify-content:center;

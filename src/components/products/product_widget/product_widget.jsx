@@ -5,12 +5,14 @@ import { ProductosContainer, ProductosWrapper } from './styles';
 import { Button } from "../../button/button"
 import { NextBackStyled } from './styles';
 import{FaAngleDoubleLeft, FaAngleDoubleRight} from 'react-icons/fa';
-
+import { FavoriteWrapper } from '../../favorite_products/favorite_widget/styles';
+import bor1 from "../../../assets/image/bor1.png"
+import { SeparadorGold } from './styles';
 
 export const ProductWidget = () => {
   return (
     <ProductosWrapper>
-     <h2>Gallery</h2>
+   
      <ProductosContainer>
 
         {
@@ -24,7 +26,11 @@ export const ProductWidget = () => {
     <Button><FaAngleDoubleLeft/> Back</Button>
     <Button> Next  < FaAngleDoubleRight/></Button>
    </NextBackStyled>
-   
+   <SeparadorGold>
+   <img src={bor1}/>  <img src={bor1}/> <img src={bor1}/>  
+  
+   </SeparadorGold>
     </ProductosWrapper>
+
   )
 }
